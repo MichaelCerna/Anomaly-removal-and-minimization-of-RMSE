@@ -27,7 +27,7 @@ Before addressing anomalies, we established a baseline model to gauge the initia
 
 To improve the model's performance, we conducted the following steps:
 
-1. **Normality Test**: We used the Shapiro-Wilk test to assess the normality of the data distribution. The test result was statistically significant, indicating non-normality.
+1. **Normality Test**: We used the Shapiro-Wilk test to assess the normality of the data distribution. The test result indicates normality. (p-value=0)
 
 2. **Robust Linear Model (RLM)**: In response to the non-normality, we implemented a Robust Linear Model (RLM) regression technique. RLM is less sensitive to outliers and suited for datasets with non-normal distributions.
 
